@@ -18,7 +18,7 @@ class Cardcitas extends StatelessWidget {
                 leading: Icon(Icons.accessibility_new),
                 title: Text('cita 1 '),
                 subtitle: Text(
-                    'Fecha: 8 de marzo 2022\nHora: 8: 00 AM \nTratamiento: Brakets\nDoctor: Benito Ordoñez\n'),
+                    'Fecha: 8 de marzo 2022\nHora: 8: 00 AM \nTraamiento: Brakets\nDoctor: Benito Ordoñez\n'),
               )
             ],
           ),
@@ -30,7 +30,7 @@ class Cardcitas extends StatelessWidget {
                 leading: Icon(Icons.accessibility_new),
                 title: Text('cita 2 \n'),
                 subtitle: Text(
-                    'Fecha: 10 de marzo 2022\nHora: 3: 30 PM\nTratamiento: Muelitas\nDoctora: Rosa Maria Luna\n'),
+                    'Fecha: 10 de marzo 2022\nHora: 3: 30 PM\nTratmiento: Muelitas\nDoctora: Rosa Maria Luna\n'),
               )
             ],
           ),
