@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/views/Citas.dart';
-import 'package:my_app/views/Datos.dart';
-import 'package:my_app/views/Pagos.dart';
-import 'package:my_app/views/Tratamiento.dart';
+import 'package:my_app/exports/viewsExport.dart';
 
-void main() => runApp(menu());
+//import 'package:my_app/views/viewsExport.dart'rt 'Pagos.dart';
+//import 'Tratamiento.dart';
+//import 'package:my_app/exports/viewsExport.dart';
 
-class menu extends StatelessWidget {
+class Menu extends StatefulWidget {
+  @override
+  _MenuState createState() => _MenuState();
+}
+
+class _MenuState extends State<Menu> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

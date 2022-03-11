@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/views/menu.dart';
+import 'package:my_app/exports/viewsExport.dart';
 
-class login extends StatefulWidget {
+class Login extends StatefulWidget {
   @override
-  _loginState createState() => _loginState();
+  _LoginState createState() => _LoginState();
 }
 
-class _loginState extends State<login> {
+class _LoginState extends State<Login> {
   final _user = TextEditingController();
   final _contra = TextEditingController();
 
@@ -62,7 +62,7 @@ class _loginState extends State<login> {
         if (usuario == 'Santo' && contra == '1234') {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => menu()),
+            MaterialPageRoute(builder: (context) => Menu()),
           );
         } else {
           return showDialog(
